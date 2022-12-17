@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87372a95-6b03-4827-a7f8-e99015e3b53e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domaine/data/DataTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domaine/data/manager/TicketManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/domaine/data/repository/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domaine/data/manager/TicketManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/domaine/data/manager/TicketManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/domaine/data/manager/TicketManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +49,7 @@
       <recent name="ru.netology.domaine.data.manager" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TicketManagerTest.findAllAndSort">
+  <component name="RunManager" selected="JUnit.TicketManagerTest.shouldSearchByFrom_">
     <configuration name="TicketManagerTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tickets" />
       <extension name="coverage">
@@ -89,8 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketManagerTest.shouldSearchByFrom_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tickets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.domaine.data.manager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.domaine.data.manager" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.domaine.data.manager.TicketManagerTest" />
+      <option name="METHOD_NAME" value="shouldSearchByFrom_" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicketManagerTest.shouldSearchByFrom_" />
         <item itemvalue="JUnit.TicketManagerTest.findAllAndSort" />
         <item itemvalue="JUnit.TicketManagerTest.findAll" />
       </list>
